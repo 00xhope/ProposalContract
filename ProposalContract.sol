@@ -2,7 +2,7 @@
 pragma solidity ^0.8.18;
 
 contract ProposalContract {
-    address public owner; // Declare owner variable
+    address internal owner; // Declare owner variable
     
     constructor() {
         owner = msg.sender; // Assign owner in the constructor
